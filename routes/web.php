@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('category', "CategoryController@index");
+Route::post('category/store', "CategoryController@store");
+Route::delete('category/d/{id}', "CategoryController@destroy");

@@ -1,0 +1,28 @@
+ul.mainmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul.mainmenu li {
+    display: inline-block;
+}
+
+ul.mainmenu li a {
+    padding: 12px 18px;
+    display: block;
+    color: #000;
+    margin: 0 7px;
+    transition: .3s;
+}
+
+.site-menu {
+    background-color: #ddd;
+    padding: 0px;
+}
+
+ul.mainmenu li a:hover {
+    background-color: #000;
+    color: #fff;
+}
